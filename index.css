@@ -9,7 +9,6 @@
     background-position: centre;
     background-size: cover;
     height: 100vh;
-    background-image:
 }
 
 .navbar{
@@ -71,6 +70,7 @@ ul li a{
 ul li a:hover{
     color: brown;
 }
+
 img{
     width: 400px;
     height: 400px;
@@ -80,7 +80,6 @@ img{
     margin-top: 20px;
 }
 
-
 .btn{
     background-color: burlywood;
     padding: 2px;
@@ -89,10 +88,10 @@ img{
     margin-left: 100px;
     cursor: pointer;
 }
+
 .btn:hover{
     background-color: white;
 }
-
 
 .contents{
     color: white;
@@ -104,25 +103,20 @@ img{
     margin-left: 60px;
 }
 
-/* h1{
-    color: white;
-    text-align: left;
-    height: auto;
-    margin: auto; 
-}*/
-
 .Hello{
     font-size: 60px;
     color: white;
-
 }
+
 .par{
     font-size: 40px;
     color: rgb(190, 82, 82);
 }
+
 .fs{
     font-size: 30px;
 }
+
 aside{
     display: flex;
     flex-direction: column;
@@ -138,6 +132,7 @@ aside{
     align-items: center;
     cursor: pointer;
 }
+
 #envelope:hover{
     color: rgb(241, 204, 158);
 }
@@ -159,6 +154,7 @@ aside{
 #linkedin:hover{
     color: rgb(241, 204, 158);
 }
+
 article{
     display: grid;
     grid-template-columns: auto;
@@ -173,7 +169,6 @@ article{
     justify-content: center;
     opacity: 0.8;
 }
-
 article > div{
     background-color:white;
     padding: 20px;
@@ -181,23 +176,18 @@ article > div{
     text-align: center;
 }
 
-
 .iframe{
     display: flex;
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
     opacity: 0.7;
-
 }
+
 footer{
     background-color: rgb(253, 215, 168);
     text-align: center;
-    opacity: 0.7;
-    
-}
-.foot{
-
+    opacity: 0.7;   
 }
 
 .contact-section{
@@ -213,6 +203,7 @@ footer{
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
 }
+
 #contact{
     color: brown;
     display: grid;
@@ -226,28 +217,12 @@ footer{
 .connect:hover{
     background-color: rgb(179, 162, 113);
 }
-@media(max-width:576px){
-    body{
-        background-color: black;}
-        .menu{
-            display: none;
-        }
-        aside{
-            flex-direction: row;
-            bottom: 1px;
-            top: auto;
-            left: 25%;
-            position: absolute;
-            color: white;
-        }
-        main{
-            height: fit-content;
-        }
-}
+
 .address{
     padding: 10px;
     
 }
+
 .add span{
     color: brown;
 }
